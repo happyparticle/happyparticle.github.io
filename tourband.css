@@ -1,0 +1,140 @@
+/* Global styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+
+h1, h2, h3, p {
+  color: #7BC8E1;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Header */
+
+header {
+  background: #000000;
+  color: #7BC8E1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+
+nav {
+position: fixed; 
+overflow: hidden;
+
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+nav li {
+float: left;
+width: 25%;
+
+}
+
+nav a {
+display: block;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+
+}
+
+
+
+/*Social Icons Top*/
+.social-icons {
+  position: fixed;
+  top: 100px; 
+  right: 35px;
+  background: #000000;
+}
+
+.social-icons a {
+  display: block;
+  margin-bottom: 10px;
+  color: #7BC8E1;
+}
+
+
+
+/* Main Content */
+main {
+  padding: 20px;
+  background: #000000;
+}
+
+
+
+
+
+/*table tour dates*/
+table {
+  width: 90%; 
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+  color: #7BC8E1;
+}
+
+th {
+  background: #333; 
+  color: #7BC8E1;
+}
+
+
+/* Footer */
+
+footer {
+  background: #000000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.social-links {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #7BC8E1;
+  margin: 0 10px;
+}
+
+@media (min-width: 600px) {
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+}
+
